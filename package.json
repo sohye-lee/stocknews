@@ -1,0 +1,19 @@
+{
+  "name": "06_stocknews",
+  "version": "1.0.0",
+  "description": "Stock News Scraper App Built With Flask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohye-lee/stocknews.git"
+  },
+  "author": "Sohye Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohye-lee/stocknews/issues"
+  },
+  "homepage": "https://github.com/sohye-lee/stocknews#readme"
+}
