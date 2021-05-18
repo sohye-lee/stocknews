@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
     <title>Stock News</title>
 </head>
 <body>
-    <h1>HI</h1>
+    <section id="main">
+        <div id="title">
+            <h1>Cryptocurrency News</h1> 
+        </div>
+        <div class="content">
+            {% for n in all_news %}
+      
+                <div>
+                    <h4>{{n.website}}</h4>
+                    <h4><a href="{{n.link}}" target="_blank">{{n.title}}</a></h4>
+                    <h5>Written by {{n.author}}, {{n.writtenAt}}</h5>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
 </body>
 </html>

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sohye-lee/stocknews/issues"
   },
-  "homepage": "https://github.com/sohye-lee/stocknews#readme"
+  "homepage": "https://github.com/sohye-lee/stocknews#readme",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
 }
